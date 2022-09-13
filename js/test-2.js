@@ -210,40 +210,177 @@
 // }
 
 //------------------------------------------------------------------------20----------------------------------
-function calculateTotalPrice(order) {
-  let total = 0;
-  // Change code below this line
-  for (let i = 0; i < order.length; i += 1);
-  total += order[i];
-  // Change code above this line
-  return total;
-}
-
-console.log(calculateTotalPrice([12, 85, 37, 4]));
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+//   for (let i = 0; i < order.length; i += 1) {
+//     total += order[i];
+//   }
+//   // Change code above this line
+//   return total;
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
 //------------------------------------------------------------------------21----------------------------------
 
-//------------------------------------------------------------------------22----------------------------------
+//   function findLongestWord(string) {
+//     const array = string.split(" ");
+//     let longestWord = array[0];
 
+//     for (let el of array) {
+//       if (longestWord.length < el.length) {
+//         longestWord = el;
+//       }
+//     }
+
+//     return longestWord
+// }
+
+// console.log(findLongestWord('The quick brown fox jumped over the lazy dog'));
+
+//------------------------------------------------------------------------22----------------------------------
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+//   for (let i = min; i <= max; i += 1) {
+//     numbers.push(i);
+//   }
+//   // Change code above this line
+//   return numbers;
+// }
+// console.log(createArrayOfNumbers(14, 17));
 //------------------------------------------------------------------------23----------------------------------
+
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const newArray = [];
+
+//   for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] > value) {
+//       newArray.push(numbers[i]);
+//     }
+//   }
+
+//   // Change code above this line
+//   return newArray;
+// }
+
+// console.log(filterArray([1, 2, 3, 4, 5], 3));
 
 //------------------------------------------------------------------------24----------------------------------
 
+// function checkFruit(fruit) {
+//   const fruits = ['apple', 'plum', 'pear', 'orange'];
+//   return fruits.includes(fruit);
+// }
+// console.log(checkFruit('plum'));
 //------------------------------------------------------------------------25----------------------------------
 
-//------------------------------------------------------------------------26----------------------------------
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+//   let newArray = [];
+//   for (let element of array1) {
+//     if (array2.includes(element)) {
+//       newArray.push(element);
+//     }
+//   }
+//   return newArray;
+//   // Change code above this line
+// }
 
+// console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]));
+
+//------------------------------------------------------------------------26----------------------------------
+// const planets = ['Earth', 'Mars', 'Venus'];
+
+// for (const planet of planets) {
+//   console.log(planet);
+// }
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+
+//   for (const goods of order) {
+//     total += goods;
+//   }
+
+//   // Change code above this line
+//   return total;
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
 //------------------------------------------------------------------------27----------------------------------
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
+
+//   for (let number of numbers) {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+
+//   return filteredNumbers;
+//   // Change code above this line
+// }
 
 //------------------------------------------------------------------------28----------------------------------
 
+// const a = 3 % 3;
+// const b = 4 % 3;
+// const c = 11 % 8;
+// const d = 12 % 7;
+// const e = 8 % 6;
+
 //------------------------------------------------------------------------29----------------------------------
+// function getEvenNumbers(start, end) {
+//   // Change code below this line
+//   const newArray = [];
+//   for (let i = start; i <= end; i += 1) {
+//     if (i % 2 === 0) {
+//       newArray.push(i);
+//     }
+//   }
+//   console.log(newArray);
+//   return newArray;
+//   // Change code above this line
+// }
 
+// console.log(getEvenNumbers(2, 5));
 //------------------------------------------------------------------------30----------------------------------
+// const start = 6;
+// const end = 27;
+// let number;
 
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
 //------------------------------------------------------------------------31----------------------------------
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+//   let result;
 
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       result = i;
+//       return result;
+//     }
+//   }
+//   // Change code above this line
+// }
+// console.log(findNumber(2, 6, 5));
 //------------------------------------------------------------------------32----------------------------------
-
-//------------------------------------------------------------------------33----------------------------------
-
-//------------------------------------------------------------------------34----------------------------------
+// function includes(array, value) {
+//   // Change code below this line
+//   for (let i = 0; i < array.length; i += 1) {
+//     if (array[i] === value) {
+//       return true;
+//     }
+//   }
+//   return false;
+//   // Change code above this line
+// }
+// console.log(includes([1, 2, 3, 4, 5], 17));
+//----------------------------------------------------------------------------------------------------------
